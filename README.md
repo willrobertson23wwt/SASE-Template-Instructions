@@ -125,11 +125,11 @@ The template is currently present in our vCloud perm environment.  This is neces
 3. Next we'll want to change the vxlan tunnel destinations.  
 
    ```
-   admin@vyos-gw# set interfaces vxlan vxlan2 remote {prod-CSR-GW-IP}
-   admin@vyos-gw# set interfaces vxlan vxlan3 remote {prod-CSR-GW-IP}
-   admin@vyos-gw# set interfaces vxlan vxlan4 remote {prod-CSR-GW-IP}
-   admin@vyos-gw# set interfaces vxlan vxlan5 remote {prod-CSR-GW-IP}
-   admin@vyos-gw# set interfaces vxlan vxlan6 remote {prod-CSR-GW-IP}
+   admin@vyos-gw# set interfaces vxlan vxlan2 remote {perm-CSR-GW-IP}
+   admin@vyos-gw# set interfaces vxlan vxlan3 remote {perm-CSR-GW-IP}
+   admin@vyos-gw# set interfaces vxlan vxlan4 remote {perm-CSR-GW-IP}
+   admin@vyos-gw# set interfaces vxlan vxlan5 remote {perm-CSR-GW-IP}
+   admin@vyos-gw# set interfaces vxlan vxlan6 remote {perm-CSR-GW-IP}
    admin@vyos-gw# commit
    admin@vyos-gw# save
    ```
