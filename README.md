@@ -34,7 +34,7 @@ The template is currently present in our vCloud perm environment.  This is neces
 
 ## HLD
 
-![](SASE-HLD.png)
+![](media/SASE-HLD.png)
 
 ## Tunnel Backhaul
 
