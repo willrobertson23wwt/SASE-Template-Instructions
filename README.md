@@ -50,7 +50,7 @@ The template is currently present in our vCloud perm environment.  This is neces
 
 2. Create vApp from template 
 
-   ![template.png](media/template.png)
+   ![template.png](media/Template.png)
 
 3. Name the vApp and accept all the defaults. 
 
