@@ -110,7 +110,7 @@ The template is currently present in our vCloud perm environment.  This is neces
 
 ## VxLan Setup
 
-1. This portion involves another vApp that resides in Sandbox and will be the on-demand portion of the lab.  The vApp is named "SASE-Base-Windows".  The vApp consists of five Windows VMs and a VyOS router.  There are two Windows VMs per branch and one for the remote office.  The VyOS participates in VxLan with the vxlan-hub in the prem vApp.
+1. This portion involves another vApp that resides in Sandbox and will be the on-demand portion of the lab.  The vApp is named "SASE-Base-Windows".  The vApp consists of five Windows VMs and a VyOS router.  There are two Windows VMs per branch and one for the remote office.  The VyOS participates in VxLan with the vxlan-hub in the perm vApp.
 
    ![prod-vapp.png](media/prod-vapp.png)
 
