@@ -94,7 +94,7 @@ The template is currently present in our vCloud perm environment.  This is neces
 
     ![vmanage-upgrade.png](media/vmanage-upgrade.png)
 
-18. Next we need to activate the image we just installed.  This can be completed from Maintenance - Software upgrade.  Click on vManage and then activate.  Select the version you just installed. This will reboot vManage so give it'll take around five to ten minutes.
+18. Next we need to activate the image we just installed.  This can be completed from Maintenance - Software upgrade.  Click on vManage and then activate.  Select the version you just installed. This will reboot vManage so give it around five to ten minutes to complete.
 
 19. Next we'll bring in devices.  We'll do this by going to configuration - devices and selecting Sync Smart Account.  It'll prompt for your Cisco credentials.  Once those are entered it'll pull down all the devices in the virtual account and sync with vbond.
 
