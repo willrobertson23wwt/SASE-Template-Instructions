@@ -56,7 +56,7 @@ The template is currently present in our vCloud perm environment.  This is neces
 
 4. Once the vApp is copied over look over the VMs and decide what you need powered on.  The CSR-GW, INET-TJ, vSuite(vManage, vSmart, vBond), and VxLan-hub are necessary components that need to powered on.  Everything else is replaceable if needed.
 
-5. The first thing to after the vApp is powered on is to get vManage setup.  Login to vManage by going to the https://{CSR-GW-IP}:8443.  CSR-GW-IP being the nic0 interface on the CSR-GW virtual machine.
+5. The first thing to do after the vApp is powered on is to get vManage setup.  Login to vManage by going to the https://{CSR-GW-IP}:8443.  CSR-GW-IP being the nic0 interface on the CSR-GW virtual machine.
 
    ![CSR-GW-IP.png](media/CSR-GW-IP.png)
 
